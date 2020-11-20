@@ -10,5 +10,5 @@
         "App::Nopaste" : "lib/App/Nopaste.pm6"
     },
     "authors"      : ["Zoffix Znet"],
-    "support"      : {"source"   : "git://github.com/zoffixznet/perl6-App-Nopaste.git"}
+    "support"      : {"source"   : "git://github.com/raku-community-modules/App-Nopaste.git"}
 }
