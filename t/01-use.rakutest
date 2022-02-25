@@ -1,0 +1,7 @@
+use Test;
+
+plan 1;
+
+use-ok 'App::Nopaste';
+
+# vim: expandtab shiftwidth=4

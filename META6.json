@@ -1,14 +1,31 @@
 {
-    "perl"         : "6.c",
-    "name"         : "App::Nopaste",
-    "license"      : "Artistic-2.0",
-    "version"      : "1.001001",
-    "description"  : "Access pastebins from command line",
-    "depends"      : [ "Pastebin::Gist", "Pastebin::Shadowcat" ],
-    "test-depends" : [ "Test" ],
-    "provides"     : {
-        "App::Nopaste" : "lib/App/Nopaste.pm6"
-    },
-    "authors"      : ["Zoffix Znet"],
-    "support"      : {"source"   : "git://github.com/raku-community-modules/App-Nopaste.git"}
+  "auth": "zef:raku-community-modules",
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+    "Pastebin::Gist",
+    "Pastebin::Shadowcat"
+  ],
+  "description": "command line interface to pastebins",
+  "license": "Artistic-2.0",
+  "name": "App::Nopaste",
+  "perl": "6.c",
+  "provides": {
+    "App::Nopaste": "lib/App/Nopaste.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/raku-community-modules/App-Nopaste.git",
+  "support": {
+    "source": "git://github.com/raku-community-modules/App-Nopaste.git"
+  },
+  "tags": [
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.002"
 }
